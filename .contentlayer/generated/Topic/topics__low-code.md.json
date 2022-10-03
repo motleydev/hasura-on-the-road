@@ -1,0 +1,16 @@
+{
+  "title": "Low-Code",
+  "body": {
+    "raw": "\nWe'll be honest, if you're sleeping on low-code, you're missing out. Learn how to abstract substantial overhad from your projects to quickly launch your project. It's ok, you can always code it by hand later, if you want.\n",
+    "html": "<p>We'll be honest, if you're sleeping on low-code, you're missing out. Learn how to abstract substantial overhad from your projects to quickly launch your project. It's ok, you can always code it by hand later, if you want.</p>"
+  },
+  "_id": "topics/low-code.md",
+  "_raw": {
+    "sourceFilePath": "topics/low-code.md",
+    "sourceFileName": "low-code.md",
+    "sourceFileDir": "topics",
+    "contentType": "markdown",
+    "flattenedPath": "topics/low-code"
+  },
+  "type": "Topic"
+}

@@ -1,0 +1,27 @@
+{
+  "flag": "🇸🇪",
+  "location": "Epicenter in Stockholm",
+  "date": "10/25/22",
+  "slug": "10-25-22-stockholm",
+  "agenda": "basic-agenda",
+  "faq": "basic-faq",
+  "party": "funcprog",
+  "topics": [
+    "data-model",
+    "event-architecture",
+    "low-code"
+  ],
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "workshop/stockholm.md",
+  "_raw": {
+    "sourceFilePath": "workshop/stockholm.md",
+    "sourceFileName": "stockholm.md",
+    "sourceFileDir": "workshop",
+    "contentType": "markdown",
+    "flattenedPath": "workshop/stockholm"
+  },
+  "type": "Workshop"
+}

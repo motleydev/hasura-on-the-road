@@ -1,0 +1,62 @@
+[
+  {
+    "title": "basic-faq",
+    "items": [
+      {
+        "question": "Haven’t heard of Hasura?",
+        "answer": "Join the workshop. But more importantly, Hasura is an open-source engine that converts databases into GraphQL APIs instantly - we’re talking less than 2 minutes. It lets you connect other APIs, functions, and more into a single API.",
+        "type": "FAQ",
+        "_raw": {}
+      },
+      {
+        "question": "Haven’t heard of GraphQL?",
+        "answer": "Join the workshop. But more importantly, it’s a great way to connect many different kinds of data into an easier-to-use API. I mean, it’s good enough for these companies; you might want to have a look.",
+        "type": "FAQ",
+        "_raw": {}
+      },
+      {
+        "question": "But what if I’m not an <insert technology> Developer?",
+        "answer": "You can use Hasura with anything. Really. In fact, this workshop will be *almost* exclusively low-code/no-code. Just apply it to whatever tool you like to use. We’re building a data layer.",
+        "type": "FAQ",
+        "_raw": {}
+      },
+      {
+        "question": "What should I know?",
+        "answer": "It’s helpful to know “about” technology such as GraphQL, REST, and Postgres, but if you’re just looking for a solid foundation to build apps quickly, having a laptop and some solid technical understanding is all you need!",
+        "type": "FAQ",
+        "_raw": {}
+      },
+      {
+        "question": "What should I bring?",
+        "answer": "This is an interactive workshop. We’ll look at data models, databases, microservices, and more. Scratchpads and coffee cups will be essential.",
+        "type": "FAQ",
+        "_raw": {}
+      },
+      {
+        "question": "Who’s this for?",
+        "answer": "Frankly, everyone. We’re teaching an architecture pattern for event-driven applications. You can scale it up and down as needed. Got a go function running at the edge of the galaxy. Great! Got a Webflow app that you want to do more with? You’ll learn stuff, too.",
+        "type": "FAQ",
+        "_raw": {}
+      },
+      {
+        "question": "What does this cost?",
+        "answer": "Hasura is sponsoring the event.",
+        "type": "FAQ",
+        "_raw": {}
+      }
+    ],
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "faq/basic-faq.md",
+    "_raw": {
+      "sourceFilePath": "faq/basic-faq.md",
+      "sourceFileName": "basic-faq.md",
+      "sourceFileDir": "faq",
+      "contentType": "markdown",
+      "flattenedPath": "faq/basic-faq"
+    },
+    "type": "Faq"
+  }
+]

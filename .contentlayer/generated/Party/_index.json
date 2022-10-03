@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Func Prog Sweden",
+    "description": "A cool event",
+    "image": "",
+    "link": "https://www.meetup.com/func-prog-sweden/events/288505993/",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "afterparty/funcprog.md",
+    "_raw": {
+      "sourceFilePath": "afterparty/funcprog.md",
+      "sourceFileName": "funcprog.md",
+      "sourceFileDir": "afterparty",
+      "contentType": "markdown",
+      "flattenedPath": "afterparty/funcprog"
+    },
+    "type": "Party"
+  }
+]

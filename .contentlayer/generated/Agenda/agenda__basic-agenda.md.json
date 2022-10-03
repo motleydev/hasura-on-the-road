@@ -1,0 +1,32 @@
+{
+  "title": "basic-agenda",
+  "items": [
+    {
+      "title": "This",
+      "description": "that",
+      "time": 30,
+      "type": "AGENDA_ITEM",
+      "_raw": {}
+    },
+    {
+      "title": "This",
+      "description": "that",
+      "time": 30,
+      "type": "AGENDA_ITEM",
+      "_raw": {}
+    }
+  ],
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "agenda/basic-agenda.md",
+  "_raw": {
+    "sourceFilePath": "agenda/basic-agenda.md",
+    "sourceFileName": "basic-agenda.md",
+    "sourceFileDir": "agenda",
+    "contentType": "markdown",
+    "flattenedPath": "agenda/basic-agenda"
+  },
+  "type": "Agenda"
+}

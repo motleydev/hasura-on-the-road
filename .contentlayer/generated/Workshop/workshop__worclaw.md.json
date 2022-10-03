@@ -1,0 +1,27 @@
+{
+  "flag": "🇵🇱",
+  "location": "Epicenter in Worclaw",
+  "date": "10/25/22",
+  "slug": "10-25-22-worclaw",
+  "agenda": "basic-agenda",
+  "faq": "basic-faq",
+  "party": "funcprog",
+  "topics": [
+    "data-model",
+    "event-architecture",
+    "low-code"
+  ],
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "workshop/worclaw.md",
+  "_raw": {
+    "sourceFilePath": "workshop/worclaw.md",
+    "sourceFileName": "worclaw.md",
+    "sourceFileDir": "workshop",
+    "contentType": "markdown",
+    "flattenedPath": "workshop/worclaw"
+  },
+  "type": "Workshop"
+}
