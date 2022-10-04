@@ -1,166 +1,166 @@
+// contentlayer.config.js
 import icons from "@heroicons/react/24/outline/index.js";
-
 import {
   defineDocumentType,
   defineNestedType,
-  makeSource,
+  makeSource
 } from "contentlayer/source-files";
-
-const TOPIC = defineNestedType(() => ({
+var TOPIC = defineNestedType(() => ({
   name: "TOPIC",
   fields: {
     title: {
-      type: "string",
+      type: "string"
     },
     description: {
-      type: "string",
-    },
-  },
+      type: "string"
+    }
+  }
 }));
-
-const FAQ = defineNestedType(() => ({
+var FAQ = defineNestedType(() => ({
   name: "FAQ",
   fields: {
     question: {
-      type: "string",
+      type: "string"
     },
     answer: {
-      type: "string",
-    },
-  },
+      type: "string"
+    }
+  }
 }));
-
-const AGENDA_ITEM = defineNestedType(() => ({
+var AGENDA_ITEM = defineNestedType(() => ({
   name: "AGENDA_ITEM",
   fields: {
     title: {
-      type: "string",
+      type: "string"
     },
     description: {
-      type: "string",
+      type: "string"
     },
     time: {
-      type: "number",
-    },
-  },
+      type: "number"
+    }
+  }
 }));
-
-export const Faq = defineDocumentType(() => ({
+var Faq = defineDocumentType(() => ({
   name: "Faq",
   filePathPattern: `faq/*.md`,
   fields: {
     title: {
       type: "string",
       description: "The title of the post",
-      required: true,
+      required: true
     },
     items: {
       type: "list",
-      of: FAQ,
-    },
-  },
+      of: FAQ
+    }
+  }
 }));
-
-export const Agenda = defineDocumentType(() => ({
+var Agenda = defineDocumentType(() => ({
   name: "Agenda",
   filePathPattern: `agenda/*.md`,
   fields: {
     title: {
       type: "string",
       description: "The title of the post",
-      required: true,
+      required: true
     },
     items: {
       type: "list",
-      of: AGENDA_ITEM,
-    },
-  },
+      of: AGENDA_ITEM
+    }
+  }
 }));
-
-export const Party = defineDocumentType(() => ({
+var Party = defineDocumentType(() => ({
   name: "Party",
   filePathPattern: `afterparty/*.md`,
   fields: {
     title: {
       type: "string",
       description: "The title of the post",
-      required: true,
+      required: true
     },
     description: {
       type: "string",
-      required: true,
+      required: true
     },
     image: {
-      type: "string",
+      type: "string"
     },
     link: {
       type: "string",
-      required: true,
-    },
-  },
+      required: true
+    }
+  }
 }));
-
-export const Topic = defineDocumentType(() => ({
+var Topic = defineDocumentType(() => ({
   name: "Topic",
   filePathPattern: `topics/*.md`,
   fields: {
     title: {
       type: "string",
       description: "The title of the post",
-      required: true,
+      required: true
     },
     icon: {
       type: "enum",
       options: Object.keys(icons),
       description: "Heroicon icon",
-      required: true,
-    },
-  },
+      required: true
+    }
+  }
 }));
-
-export const Workshop = defineDocumentType(() => ({
+var Workshop = defineDocumentType(() => ({
   name: "Workshop",
   filePathPattern: `workshop/*.md`,
   fields: {
     title: {
       type: "string",
-      required: true,
+      required: true
     },
     flag: {
       type: "string",
-      required: true,
+      required: true
     },
     location: {
       type: "string",
-      required: true,
+      required: true
     },
     date: {
       type: "string",
-      required: true,
+      required: true
     },
     slug: {
       type: "string",
-      required: true,
+      required: true
     },
     agenda: {
       type: "string",
-      required: true,
+      required: true
     },
     faq: {
       type: "string",
-      required: true,
+      required: true
     },
     party: {
-      type: "string",
+      type: "string"
     },
     topics: {
       type: "list",
-      of: { type: "string" },
-    },
-  },
+      of: { type: "string" }
+    }
+  }
 }));
-
-export default makeSource({
+var contentlayer_config_default = makeSource({
   contentDirPath: "content",
-  documentTypes: [Faq, Agenda, Faq, Workshop, Party, Topic],
+  documentTypes: [Faq, Agenda, Faq, Workshop, Party, Topic]
 });
+export {
+  Agenda,
+  Faq,
+  Party,
+  Topic,
+  Workshop,
+  contentlayer_config_default as default
+};
+//# sourceMappingURL=compiled-contentlayer-config-NMLOFLX6.mjs.map

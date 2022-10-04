@@ -28,8 +28,11 @@ const Home: NextPage<Props> = ({ workshops }) => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto sm:px-6 lg:px-8">
-        <div className="overflow-hidden bg-white shadow sm:rounded-md">
+      <div className="container mx-auto sm:px-6 lg:px-8 mt-6">
+        <h1 className="text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl">
+          {"Upcoming workshops"}
+        </h1>
+        <div className="overflow-hidden my-6 bg-white shadow sm:rounded-md">
           <ul role="list" className="divide-y divide-gray-200">
             {workshops.map((workshop) => (
               <li key={workshop.slug}>

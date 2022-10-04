@@ -1,40 +1,12 @@
 import React from "react";
-import {
-  LifebuoyIcon,
-  NewspaperIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
+
+import * as icons from "@heroicons/react/24/outline";
+
 import { Topic } from "contentlayer/generated";
 
 type Props = {
   topics: Topic[];
 };
-
-const supportLinks = [
-  {
-    name: "Sales",
-    href: "#",
-    description:
-      "Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.",
-    icon: PhoneIcon,
-  },
-  {
-    name: "Technical Support",
-    href: "#",
-    description:
-      "Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.",
-    icon: LifebuoyIcon,
-  },
-  {
-    name: "Media Inquiries",
-    href: "#",
-    description:
-      "Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.",
-    icon: NewspaperIcon,
-  },
-];
-
-const chosen = supportLinks[0];
 
 export default function Agenda({ topics }: Props) {
   return (
@@ -57,9 +29,9 @@ export default function Agenda({ topics }: Props) {
             {"What we'll learn"}
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate
-            id malesuada non. Cras aliquet purus dui laoreet diam sed lacus,
-            fames. Dui, amet, nec sit pulvinar.
+            The topics of the workshops will vary and follow a non-linear path
+            as we connect different parts of the stack together, but at the end
+            of the day, these are the concepts you should come away with.
           </p>
         </div>
       </div>
@@ -73,36 +45,28 @@ export default function Agenda({ topics }: Props) {
           {"What we'll learn"}
         </h2>
         <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
-          {topics.map((link) => (
-            <div
-              key={link.title}
-              className="flex flex-col rounded-2xl bg-white shadow-xl"
-            >
-              <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
-                <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-hasolor-600 p-5 shadow-lg">
-                  <chosen.icon
-                    className="h-6 w-6 text-white"
-                    aria-hidden="true"
+          {topics.map((link) => {
+            const Icon = icons[link.icon];
+            return (
+              <div
+                key={link.title}
+                className="flex flex-col rounded-2xl bg-white shadow-xl"
+              >
+                <div className="relative flex-1 px-6 pt-16 pb-8 md:px-8">
+                  <div className="absolute top-0 inline-block -translate-y-1/2 transform rounded-xl bg-hasolor-600 p-5 shadow-lg">
+                    <Icon className="h-6 w-6 text-white" aria-hidden="true" />
+                  </div>
+                  <h3 className="text-xl font-medium text-gray-800">
+                    {link.title}
+                  </h3>
+                  <div
+                    className="prose"
+                    dangerouslySetInnerHTML={{ __html: link.body.html }}
                   />
                 </div>
-                <h3 className="text-xl font-medium text-gray-800">
-                  {link.title}
-                </h3>
-                <div
-                  className="prose"
-                  dangerouslySetInnerHTML={{ __html: link.body.html }}
-                />
               </div>
-              <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
-                <a
-                  href={chosen.href}
-                  className="text-base font-medium text-hasolor-700 hover:text-hasolor-600"
-                >
-                  Contact us<span aria-hidden="true"> &rarr;</span>
-                </a>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
     </div>

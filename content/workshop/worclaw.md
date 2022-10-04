@@ -1,4 +1,5 @@
 ---
+title: "Workshop in Worclaw!"
 flag: 🇵🇱
 location: "Epicenter in Worclaw"
 date: 10/25/22

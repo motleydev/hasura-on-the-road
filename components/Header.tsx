@@ -28,7 +28,7 @@ export default function Header({ isIndex }: Props) {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                  src="/hasura_logo_light.svg"
                   alt=""
                 />
               </a>

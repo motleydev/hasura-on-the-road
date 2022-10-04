@@ -129,6 +129,7 @@
     "topics/data-model.md": {
       "document": {
         "title": "Data Model",
+        "icon": "TableCellsIcon",
         "body": {
           "raw": "\nWe'll begin by looking at the datamodel we intend to create, which is the critical foundation to any data-layer project, and Hasura is no different.\n",
           "html": "<p>We'll begin by looking at the datamodel we intend to create, which is the critical foundation to any data-layer project, and Hasura is no different.</p>"
@@ -143,13 +144,14 @@
         },
         "type": "Topic"
       },
-      "documentHash": "1664789330257",
+      "documentHash": "1664872066740",
       "hasWarnings": false,
       "documentTypeName": "Topic"
     },
     "topics/event-architecture.md": {
       "document": {
         "title": "Event Architecture",
+        "icon": "ArrowsRightLeftIcon",
         "body": {
           "raw": "\nAn event-driven architecture allows us to create scaleable applications that don't require front-end overhead of polling or checking for updates, and let's us use best-of-breed tools that inform our stack of federated services when they are ready to perform the next job.\n",
           "html": "<p>An event-driven architecture allows us to create scaleable applications that don't require front-end overhead of polling or checking for updates, and let's us use best-of-breed tools that inform our stack of federated services when they are ready to perform the next job.</p>"
@@ -164,13 +166,14 @@
         },
         "type": "Topic"
       },
-      "documentHash": "1664789424795",
+      "documentHash": "1664872044191",
       "hasWarnings": false,
       "documentTypeName": "Topic"
     },
     "topics/low-code.md": {
       "document": {
         "title": "Low-Code",
+        "icon": "CursorArrowRaysIcon",
         "body": {
           "raw": "\nWe'll be honest, if you're sleeping on low-code, you're missing out. Learn how to abstract substantial overhad from your projects to quickly launch your project. It's ok, you can always code it by hand later, if you want.\n",
           "html": "<p>We'll be honest, if you're sleeping on low-code, you're missing out. Learn how to abstract substantial overhad from your projects to quickly launch your project. It's ok, you can always code it by hand later, if you want.</p>"
@@ -185,12 +188,13 @@
         },
         "type": "Topic"
       },
-      "documentHash": "1664789873003",
+      "documentHash": "1664871665563",
       "hasWarnings": false,
       "documentTypeName": "Topic"
     },
     "workshop/london.md": {
       "document": {
+        "title": "Workshop in London!",
         "flag": "🇬🇧",
         "location": "L39 in London",
         "date": "10/25/22",
@@ -217,12 +221,13 @@
         },
         "type": "Workshop"
       },
-      "documentHash": "1664546252415",
+      "documentHash": "1664875726551",
       "hasWarnings": false,
       "documentTypeName": "Workshop"
     },
     "workshop/stockholm.md": {
       "document": {
+        "title": "Workshop in Stockholm!",
         "flag": "🇸🇪",
         "location": "Epicenter in Stockholm",
         "date": "10/25/22",
@@ -249,12 +254,13 @@
         },
         "type": "Workshop"
       },
-      "documentHash": "1664790485557",
+      "documentHash": "1664875735302",
       "hasWarnings": false,
       "documentTypeName": "Workshop"
     },
     "workshop/worclaw.md": {
       "document": {
+        "title": "Workshop in Worclaw!",
         "flag": "🇵🇱",
         "location": "Epicenter in Worclaw",
         "date": "10/25/22",
@@ -281,7 +287,7 @@
         },
         "type": "Workshop"
       },
-      "documentHash": "1664790201633",
+      "documentHash": "1664875743873",
       "hasWarnings": false,
       "documentTypeName": "Workshop"
     }

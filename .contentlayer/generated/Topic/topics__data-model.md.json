@@ -1,5 +1,6 @@
 {
   "title": "Data Model",
+  "icon": "TableCellsIcon",
   "body": {
     "raw": "\nWe'll begin by looking at the datamodel we intend to create, which is the critical foundation to any data-layer project, and Hasura is no different.\n",
     "html": "<p>We'll begin by looking at the datamodel we intend to create, which is the critical foundation to any data-layer project, and Hasura is no different.</p>"

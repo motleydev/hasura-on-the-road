@@ -1,6 +1,7 @@
 [
   {
     "title": "Data Model",
+    "icon": "TableCellsIcon",
     "body": {
       "raw": "\nWe'll begin by looking at the datamodel we intend to create, which is the critical foundation to any data-layer project, and Hasura is no different.\n",
       "html": "<p>We'll begin by looking at the datamodel we intend to create, which is the critical foundation to any data-layer project, and Hasura is no different.</p>"
@@ -17,6 +18,7 @@
   },
   {
     "title": "Event Architecture",
+    "icon": "ArrowsRightLeftIcon",
     "body": {
       "raw": "\nAn event-driven architecture allows us to create scaleable applications that don't require front-end overhead of polling or checking for updates, and let's us use best-of-breed tools that inform our stack of federated services when they are ready to perform the next job.\n",
       "html": "<p>An event-driven architecture allows us to create scaleable applications that don't require front-end overhead of polling or checking for updates, and let's us use best-of-breed tools that inform our stack of federated services when they are ready to perform the next job.</p>"
@@ -33,6 +35,7 @@
   },
   {
     "title": "Low-Code",
+    "icon": "CursorArrowRaysIcon",
     "body": {
       "raw": "\nWe'll be honest, if you're sleeping on low-code, you're missing out. Learn how to abstract substantial overhad from your projects to quickly launch your project. It's ok, you can always code it by hand later, if you want.\n",
       "html": "<p>We'll be honest, if you're sleeping on low-code, you're missing out. Learn how to abstract substantial overhad from your projects to quickly launch your project. It's ok, you can always code it by hand later, if you want.</p>"

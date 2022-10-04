@@ -18,6 +18,8 @@ import {
 } from "contentlayer/generated";
 import { ParsedUrlQuery } from "querystring";
 import { allTopics } from "../../.contentlayer/generated/index.mjs";
+import { useStore } from "../../store/store";
+import React from "react";
 
 const topicDict = allTopics.reduce((collector: any, next) => {
   collector[next._raw.flattenedPath] = next;
@@ -81,6 +83,11 @@ const WorkshopPage: NextPage<Props> = ({
   party,
 }) => {
   const { flag, location, date } = workshop;
+  const { setActiveWorkshop } = useStore();
+
+  React.useEffect(() => {
+    setActiveWorkshop(workshop);
+  }, [setActiveWorkshop, workshop]);
   return (
     <Layout
       hero={() => <HeroContent flag={flag} date={date} location={location} />}

@@ -1,4 +1,5 @@
 ---
+title: "Workshop in Stockholm!"
 flag: 🇸🇪
 location: "Epicenter in Stockholm"
 date: 10/25/22

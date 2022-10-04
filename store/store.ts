@@ -3,6 +3,7 @@ import { devtools, persist } from "zustand/middleware";
 
 import Cookies from "js-cookie";
 import Router from "next/router";
+import { Workshop } from "contentlayer/generated";
 
 type LocalUser = {
   first_name?: string | null;
@@ -12,18 +13,24 @@ type LocalUser = {
   permissions: boolean | null;
 };
 
-interface Workshop {
+interface WorkshopStore {
   user: LocalUser;
+  activeWorkshop: Workshop | null;
+  setActiveWorkshop: (activeWorkshop: Workshop) => void;
   signup: (user: LocalUser) => void;
   logout: () => void;
   formOpen: boolean;
   setFormOpen: () => void;
 }
 
-const useStore = create<Workshop>()(
+const useStore = create<WorkshopStore>()(
   devtools(
     persist(
       (set, get) => ({
+        activeWorkshop: null,
+        setActiveWorkshop: (activeWorkshop: Workshop) => {
+          set({ activeWorkshop });
+        },
         user: { permissions: false },
         signup: (user: LocalUser) => {
           console.log("Signing up user ", user.first_name);
