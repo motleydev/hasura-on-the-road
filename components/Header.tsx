@@ -17,15 +17,14 @@ export default function Header({ isIndex }: Props) {
   const { setFormOpen } = useStore();
   return (
     <Popover as="header" className="relative">
-      <div className="bg-hasolor-800 pt-6">
+      <div className="bg-hasolor-400 pt-6">
         <nav
           className="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"
           aria-label="Global"
         >
           <div className="flex flex-1 items-center">
             <div className="flex w-full items-center justify-between md:w-auto">
-              <a href="#">
-                <span className="sr-only">Your Company</span>
+              <a href="https://hasura.io">
                 <img
                   className="h-8 w-auto sm:h-10"
                   src="/hasura_logo_light.svg"
@@ -60,7 +59,7 @@ export default function Header({ isIndex }: Props) {
                 onClick={() => setFormOpen()}
                 className="inline-flex items-center rounded-md border border-transparent bg-gray-900 px-4 py-2 text-base font-medium text-white hover:bg-gray-700"
               >
-                Register for the workshop!
+                Register for the workshop
               </button>
             </div>
           )}
@@ -84,14 +83,13 @@ export default function Header({ isIndex }: Props) {
             <div className="flex items-center justify-between px-5 pt-4">
               <div>
                 <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  className="h-8 w-auto sm:h-10"
+                  src="/hasura_icon_colour.svg"
                   alt=""
                 />
               </div>
               <div className="-mr-2">
                 <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-hasolor-600">
-                  <span className="sr-only">Close menu</span>
                   <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
               </div>
@@ -107,22 +105,6 @@ export default function Header({ isIndex }: Props) {
                     {item.name}
                   </a>
                 ))}
-              </div>
-              <div className="mt-6 px-5">
-                <a
-                  href="#"
-                  className="block w-full rounded-md bg-hasolor-600 py-3 px-4 text-center font-medium text-white shadow hover:bg-hasolor-700"
-                >
-                  Start free trial
-                </a>
-              </div>
-              <div className="mt-6 px-5">
-                <p className="text-center text-base font-medium text-gray-500">
-                  Existing customer?{" "}
-                  <a href="#" className="text-gray-800 hover:underline">
-                    Login
-                  </a>
-                </p>
               </div>
             </div>
           </div>

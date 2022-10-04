@@ -8,7 +8,7 @@ type Props = {
 export default function Layout({ hero, children }: Props) {
   return (
     <main>
-      <div className="bg-hasolor-800 pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
+      <div className="bg-hasolor-400 pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
         <div className="mx-auto max-w-7xl lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:gap-8">
             {hero()}

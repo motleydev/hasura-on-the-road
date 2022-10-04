@@ -12,7 +12,7 @@ export default function Agenda({ topics }: Props) {
   return (
     <div id="agenda" className="bg-white">
       {/* Header */}
-      <div className="relative bg-gray-700 pb-32">
+      <div className="relative bg-gray-200 pb-32">
         <div className="absolute inset-0">
           <img
             className="h-full w-full object-cover"
@@ -20,7 +20,7 @@ export default function Agenda({ topics }: Props) {
             alt=""
           />
           <div
-            className="absolute inset-0 bg-gray-700 mix-blend-multiply"
+            className="absolute inset-0 bg-hasolor-400 mix-blend-multiply"
             aria-hidden="true"
           />
         </div>
