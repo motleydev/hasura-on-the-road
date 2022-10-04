@@ -1,29 +1,5 @@
 {
   "cacheItemsMap": {
-    "afterparty/funcprog.md": {
-      "document": {
-        "title": "Func Prog Sweden",
-        "description": "A cool event",
-        "image": "",
-        "link": "https://www.meetup.com/func-prog-sweden/events/288505993/",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "afterparty/funcprog.md",
-        "_raw": {
-          "sourceFilePath": "afterparty/funcprog.md",
-          "sourceFileName": "funcprog.md",
-          "sourceFileDir": "afterparty",
-          "contentType": "markdown",
-          "flattenedPath": "afterparty/funcprog"
-        },
-        "type": "Party"
-      },
-      "documentHash": "1664545902486",
-      "hasWarnings": false,
-      "documentTypeName": "Party"
-    },
     "agenda/basic-agenda.md": {
       "document": {
         "title": "basic-agenda",
@@ -192,16 +168,88 @@
       "hasWarnings": false,
       "documentTypeName": "Topic"
     },
+    "afterparty/LondonHUG.md": {
+      "document": {
+        "title": "HUG: London Hasura User' Group",
+        "description": "Join us for the October edition of the Hasura User Group in London! Is there a better way to end the workshop? No way!\n",
+        "image": "/hasura_logo_dark.png",
+        "link": "",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "afterparty/LondonHUG.md",
+        "_raw": {
+          "sourceFilePath": "afterparty/LondonHUG.md",
+          "sourceFileName": "LondonHUG.md",
+          "sourceFileDir": "afterparty",
+          "contentType": "markdown",
+          "flattenedPath": "afterparty/LondonHUG"
+        },
+        "type": "Party"
+      },
+      "documentHash": "1664891484642",
+      "hasWarnings": false,
+      "documentTypeName": "Party"
+    },
+    "afterparty/funcprog.md": {
+      "document": {
+        "title": "Meetup: Func Prog Sweden",
+        "description": "Join the community for engaging talks around functional programming, type safety, and all things surrounding developers in Stockholm. Thanks to Funnel.io for hosting the event!\n",
+        "image": "func_prog.png",
+        "link": "https://www.meetup.com/func-prog-sweden/events/288505993/",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "afterparty/funcprog.md",
+        "_raw": {
+          "sourceFilePath": "afterparty/funcprog.md",
+          "sourceFileName": "funcprog.md",
+          "sourceFileDir": "afterparty",
+          "contentType": "markdown",
+          "flattenedPath": "afterparty/funcprog"
+        },
+        "type": "Party"
+      },
+      "documentHash": "1664891767691",
+      "hasWarnings": false,
+      "documentTypeName": "Party"
+    },
+    "afterparty/graphqlwroclaw.md": {
+      "document": {
+        "title": "Meetup: GraphQL Wroclaw",
+        "description": "Join us for all things GraphQL at the brand new office of Mirumee!\n",
+        "image": "wroclaw.png",
+        "link": "https://www.graphqlwroclaw.org/",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "afterparty/graphqlwroclaw.md",
+        "_raw": {
+          "sourceFilePath": "afterparty/graphqlwroclaw.md",
+          "sourceFileName": "graphqlwroclaw.md",
+          "sourceFileDir": "afterparty",
+          "contentType": "markdown",
+          "flattenedPath": "afterparty/graphqlwroclaw"
+        },
+        "type": "Party"
+      },
+      "documentHash": "1664891757678",
+      "hasWarnings": false,
+      "documentTypeName": "Party"
+    },
     "workshop/london.md": {
       "document": {
         "title": "Workshop in London!",
         "flag": "🇬🇧",
         "location": "L39 in London",
-        "date": "10/25/22",
-        "slug": "10-25-22-london",
+        "date": "10/28/22",
+        "slug": "10-28-22-london",
         "agenda": "basic-agenda",
         "faq": "basic-faq",
-        "party": "funcprog",
+        "party": "LondonHUG",
         "topics": [
           "data-model",
           "event-architecture",
@@ -221,7 +269,7 @@
         },
         "type": "Workshop"
       },
-      "documentHash": "1664875726551",
+      "documentHash": "1664891525805",
       "hasWarnings": false,
       "documentTypeName": "Workshop"
     },
@@ -262,9 +310,9 @@
       "document": {
         "title": "Workshop in Worclaw!",
         "flag": "🇵🇱",
-        "location": "Epicenter in Worclaw",
-        "date": "10/25/22",
-        "slug": "10-25-22-worclaw",
+        "location": "Mirumee Office in Worclaw",
+        "date": "10/18/22",
+        "slug": "10-18-22-worclaw",
         "agenda": "basic-agenda",
         "faq": "basic-faq",
         "party": "funcprog",
@@ -287,7 +335,7 @@
         },
         "type": "Workshop"
       },
-      "documentHash": "1664875743873",
+      "documentHash": "1664891853720",
       "hasWarnings": false,
       "documentTypeName": "Workshop"
     }

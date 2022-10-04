@@ -1,0 +1,19 @@
+{
+  "title": "Meetup: GraphQL Wroclaw",
+  "description": "Join us for all things GraphQL at the brand new office of Mirumee!\n",
+  "image": "wroclaw.png",
+  "link": "https://www.graphqlwroclaw.org/",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "afterparty/graphqlwroclaw.md",
+  "_raw": {
+    "sourceFilePath": "afterparty/graphqlwroclaw.md",
+    "sourceFileName": "graphqlwroclaw.md",
+    "sourceFileDir": "afterparty",
+    "contentType": "markdown",
+    "flattenedPath": "afterparty/graphqlwroclaw"
+  },
+  "type": "Party"
+}

@@ -1,8 +1,27 @@
 [
   {
-    "title": "Func Prog Sweden",
-    "description": "A cool event",
-    "image": "",
+    "title": "HUG: London Hasura User' Group",
+    "description": "Join us for the October edition of the Hasura User Group in London! Is there a better way to end the workshop? No way!\n",
+    "image": "/hasura_logo_dark.png",
+    "link": "",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "afterparty/LondonHUG.md",
+    "_raw": {
+      "sourceFilePath": "afterparty/LondonHUG.md",
+      "sourceFileName": "LondonHUG.md",
+      "sourceFileDir": "afterparty",
+      "contentType": "markdown",
+      "flattenedPath": "afterparty/LondonHUG"
+    },
+    "type": "Party"
+  },
+  {
+    "title": "Meetup: Func Prog Sweden",
+    "description": "Join the community for engaging talks around functional programming, type safety, and all things surrounding developers in Stockholm. Thanks to Funnel.io for hosting the event!\n",
+    "image": "func_prog.png",
     "link": "https://www.meetup.com/func-prog-sweden/events/288505993/",
     "body": {
       "raw": "",
@@ -15,6 +34,25 @@
       "sourceFileDir": "afterparty",
       "contentType": "markdown",
       "flattenedPath": "afterparty/funcprog"
+    },
+    "type": "Party"
+  },
+  {
+    "title": "Meetup: GraphQL Wroclaw",
+    "description": "Join us for all things GraphQL at the brand new office of Mirumee!\n",
+    "image": "wroclaw.png",
+    "link": "https://www.graphqlwroclaw.org/",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "afterparty/graphqlwroclaw.md",
+    "_raw": {
+      "sourceFilePath": "afterparty/graphqlwroclaw.md",
+      "sourceFileName": "graphqlwroclaw.md",
+      "sourceFileDir": "afterparty",
+      "contentType": "markdown",
+      "flattenedPath": "afterparty/graphqlwroclaw"
     },
     "type": "Party"
   }

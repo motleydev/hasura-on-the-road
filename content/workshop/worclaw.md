@@ -1,9 +1,9 @@
 ---
 title: "Workshop in Worclaw!"
 flag: 🇵🇱
-location: "Epicenter in Worclaw"
-date: 10/25/22
-slug: 10-25-22-worclaw
+location: "Mirumee Office in Worclaw"
+date: 10/18/22
+slug: 10-18-22-worclaw
 agenda: basic-agenda
 faq: "basic-faq"
 party: funcprog

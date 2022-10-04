@@ -9,50 +9,30 @@ export default function LogoWall({}: Props) {
         <p className="text-center text-lg font-semibold text-gray-600">
           Who else uses Hasura? Rezognize some of these players?
         </p>
-        <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+        <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-4 lg:mt-8">
           <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-              alt="Workcation"
-            />
+            <img className="max-h-12" src="/logos/walmart.png" alt="Walmart" />
+          </div>
+          <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+            <img className="max-h-12" src="/logos/netlify.png" alt="Netlify" />
           </div>
           <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
             <img
               className="max-h-12"
-              src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-              alt="Mirage"
+              src="/logos/atlassian.png"
+              alt="Atlassian"
             />
           </div>
           <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-              alt="Tuple"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
-              alt="Laravel"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-              alt="StaticKit"
-            />
-          </div>
-          <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-            <img
-              className="max-h-12"
-              src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
-              alt="Statamic"
-            />
+            <img className="max-h-12" src="/logos/airbus.png" alt="Airbus" />
           </div>
         </div>
+        <a
+          className="block my-4 text-center text-hasolor-400 hover:text-hasolor-700 "
+          href="https://hasura.io/case-studies/"
+        >
+          Read here for even more case studies
+        </a>
       </div>
     </div>
   );

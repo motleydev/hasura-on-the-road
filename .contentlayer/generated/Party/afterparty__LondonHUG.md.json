@@ -1,0 +1,19 @@
+{
+  "title": "HUG: London Hasura User' Group",
+  "description": "Join us for the October edition of the Hasura User Group in London! Is there a better way to end the workshop? No way!\n",
+  "image": "/hasura_logo_dark.png",
+  "link": "",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "afterparty/LondonHUG.md",
+  "_raw": {
+    "sourceFilePath": "afterparty/LondonHUG.md",
+    "sourceFileName": "LondonHUG.md",
+    "sourceFileDir": "afterparty",
+    "contentType": "markdown",
+    "flattenedPath": "afterparty/LondonHUG"
+  },
+  "type": "Party"
+}
